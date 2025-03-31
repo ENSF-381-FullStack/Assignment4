@@ -1,0 +1,62 @@
+.App {
+  text-align: center;
+}
+
+/* Header Logo*/
+.header-logo {
+  height: 20vmin;
+  pointer-events: none;
+}
+
+/* Header */
+header {
+  background-color: #004080; /* Deep blue */
+  color: white;
+  padding: 20px;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Align logo left, text right */
+}
+
+nav {
+  background-color: #003366; /* Dark blue */
+  padding: 10px;
+  display: flex;
+  justify-content: space-around; /* Even spacing */
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 10px 10px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Unified Styling */
+.unified {
+  font-size: 2vmin;
+  line-height: 1.6;
+  color: #333; /* Dark gray */
+  margin: 20px auto;
+  max-width: 800px;
+  text-align: justify;
+}
+
+.intro {
+  background-color: #1b5ba5d1; /* Light blue */
+  padding: 20px;
+  border-radius: 10px;
+  color: #c8ced5;
+}
+
+.footer{
+  text-align: center;
+  background-color: #004080; /* Deep blue */
+  color: white;
+  padding: 10px;
+}
